@@ -39,6 +39,9 @@ export default function Navbar() {
               <Link href="/" className="text-gray-700 hover:text-blue-600 font-medium">
                 Početna
               </Link>
+              <Link href="/odgusenje-woma-vozilom" className="text-gray-700 hover:text-blue-600 font-medium">
+                Odgušenje woma vozilom
+              </Link>
               <Link href="/usluge" className="text-gray-700 hover:text-blue-600 font-medium">
                 Usluge
               </Link>
@@ -73,6 +76,13 @@ export default function Navbar() {
                 onClick={() => setIsOpen(false)}
               >
                 Početna
+              </Link>
+              <Link
+                href="/odgusenje-woma-vozilom"
+                className="text-gray-700 hover:text-blue-600 font-medium py-2"
+                onClick={() => setIsOpen(false)}
+              >
+                Odgušenje woma vozilom
               </Link>
               <Link
                 href="/usluge"

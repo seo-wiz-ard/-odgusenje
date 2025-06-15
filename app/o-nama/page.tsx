@@ -102,24 +102,6 @@ export default function AboutUs() {
           <div className="bg-white p-4 rounded-lg shadow-sm">
             <p className="font-semibold text-blue-800">Odgušenje kanalizacije Čukarica</p>
           </div>
-          <div className="bg-white p-4 rounded-lg shadow-sm">
-            <p className="font-semibold text-blue-800">Odgušenje kanalizacije Grocka</p>
-          </div>
-          <div className="bg-white p-4 rounded-lg shadow-sm">
-            <p className="font-semibold text-blue-800">Odgušenje kanalizacije Lazarevac</p>
-          </div>
-          <div className="bg-white p-4 rounded-lg shadow-sm">
-            <p className="font-semibold text-blue-800">Odgušenje kanalizacije Mladenovac</p>
-          </div>
-          <div className="bg-white p-4 rounded-lg shadow-sm">
-            <p className="font-semibold text-blue-800">Odgušenje kanalizacije Obrenovac</p>
-          </div>
-          <div className="bg-white p-4 rounded-lg shadow-sm">
-            <p className="font-semibold text-blue-800">Odgušenje kanalizacije Sopot</p>
-          </div>
-          <div className="bg-white p-4 rounded-lg shadow-sm">
-            <p className="font-semibold text-blue-800">Odgušenje kanalizacije Barajevo</p>
-          </div>
         </div>
         <div className="text-center mt-6">
           <p className="text-gray-600">

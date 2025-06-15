@@ -61,12 +61,6 @@ export default function Navbar() {
     { name: "Savski venac", slug: "savski-venac" },
     { name: "Rakovica", slug: "rakovica" },
     { name: "Čukarica", slug: "cukarica" },
-    { name: "Grocka", slug: "grocka" },
-    { name: "Lazarevac", slug: "lazarevac" },
-    { name: "Mladenovac", slug: "mladenovac" },
-    { name: "Obrenovac", slug: "obrenovac" },
-    { name: "Sopot", slug: "sopot" },
-    { name: "Barajevo", slug: "barajevo" },
   ]
 
   return (

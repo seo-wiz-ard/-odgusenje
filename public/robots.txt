@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://odgusenje-kanalizacije.rs/sitemap.xml
+
+# Disallow admin areas
+Disallow: /admin/
+Disallow: /api/
+
+# Allow important pages
+Allow: /
+Allow: /usluge
+Allow: /kontakt
+Allow: /o-nama
+Allow: /odgusenje-woma-vozilom
+Allow: /usluge/masinsko-odgusenje
+Allow: /usluge/visokopritisno-pranje
+Allow: /usluge/ciscenje-odvoda
+Allow: /usluge/snimanje-kamerom

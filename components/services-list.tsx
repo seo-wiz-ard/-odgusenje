@@ -8,6 +8,7 @@ export default function ServicesList() {
     {
       icon: <Wrench className="h-10 w-10 text-blue-600" />,
       title: "Mašinsko odgušenje",
+      slug: "masinsko-odgusenje",
       description:
         "Brzo i efikasno odgušenje svih vrsta odvoda i kanalizacije pomoću profesionalnih mašina. Naše mašine mogu da reše i najteža začepljenja u cevima različitih prečnika.",
       image: "/placeholder.svg?height=300&width=400",
@@ -21,6 +22,7 @@ export default function ServicesList() {
     {
       icon: <Waves className="h-10 w-10 text-blue-600" />,
       title: "Visokopritisno pranje",
+      slug: "visokopritisno-pranje",
       description:
         "Temeljno čišćenje kanalizacionih cevi pomoću vode pod visokim pritiskom. Ova metoda je izuzetno efikasna za uklanjanje naslaga, masnoće i drugih nečistoća iz cevi.",
       image: "/placeholder.svg?height=300&width=400",
@@ -34,6 +36,7 @@ export default function ServicesList() {
     {
       icon: <Droplet className="h-10 w-10 text-blue-600" />,
       title: "Čišćenje odvoda",
+      slug: "ciscenje-odvoda",
       description:
         "Profesionalno čišćenje svih vrsta odvoda u kupatilu, kuhinji i drugim prostorijama. Koristimo specijalne hemikalije i alate za efikasno čišćenje i održavanje odvoda.",
       image: "/placeholder.svg?height=300&width=400",
@@ -47,6 +50,7 @@ export default function ServicesList() {
     {
       icon: <Search className="h-10 w-10 text-blue-600" />,
       title: "Snimanje kamerom",
+      slug: "snimanje-kamerom",
       description:
         "Inspekcija kanalizacionih cevi specijalnom kamerom za preciznu dijagnostiku problema. Ova metoda omogućava da vidimo tačno mesto i prirodu problema u cevima.",
       image: "/placeholder.svg?height=300&width=400",
@@ -74,7 +78,11 @@ export default function ServicesList() {
           <div className={`order-1 ${index % 2 !== 0 ? "md:order-2" : "md:order-1"}`}>
             <div className="flex items-center mb-4">
               {service.icon}
-              <h3 className="text-2xl font-bold ml-3 text-blue-800">{service.title}</h3>
+              <Link href={`/usluge/${service.slug}`}>
+                <h3 className="text-2xl font-bold ml-3 text-blue-800 hover:text-blue-600 cursor-pointer transition-colors">
+                  {service.title}
+                </h3>
+              </Link>
             </div>
             <p className="text-gray-700 mb-6">{service.description}</p>
             <ul className="space-y-2 mb-6">
@@ -85,9 +93,19 @@ export default function ServicesList() {
                 </li>
               ))}
             </ul>
-            <Link href="/kontakt">
-              <Button className="bg-blue-600 hover:bg-blue-700">Zatražite uslugu</Button>
-            </Link>
+            <div className="flex gap-4">
+              <Link href={`/usluge/${service.slug}`}>
+                <Button className="bg-blue-600 hover:bg-blue-700">
+                  Saznajte više
+                  <ArrowRight className="h-4 w-4 ml-2" />
+                </Button>
+              </Link>
+              <Link href="/kontakt">
+                <Button variant="outline" className="border-blue-600 text-blue-600 hover:bg-blue-50">
+                  Zatražite uslugu
+                </Button>
+              </Link>
+            </div>
           </div>
         </div>
       ))}

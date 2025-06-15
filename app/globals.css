@@ -72,5 +72,66 @@
   }
   body {
     @apply bg-background text-foreground;
+    font-display: swap;
+  }
+
+  /* Performance optimizations */
+  img {
+    content-visibility: auto;
+  }
+
+  /* Reduce layout shift */
+  .aspect-ratio-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+  }
+
+  /* Optimize animations */
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+
+  /* Critical CSS inlining */
+  .hero-section {
+    background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
+    min-height: 60vh;
+  }
+
+  /* Optimize font loading */
+  @font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local("Inter Regular"), local("Inter-Regular");
+  }
+}
+
+/* Utility classes for performance */
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .content-visibility-auto {
+    content-visibility: auto;
+    contain-intrinsic-size: 200px;
+  }
+
+  .will-change-transform {
+    will-change: transform;
+  }
+
+  .gpu-accelerated {
+    transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000px;
   }
 }

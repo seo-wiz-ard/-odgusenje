@@ -2,12 +2,13 @@
 
 import { useState, useEffect } from "react"
 import Link from "next/link"
-import { Menu, X, Phone } from "lucide-react"
+import { Menu, X, Phone, ChevronDown } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
   const [isScrolled, setIsScrolled] = useState(false)
+  const [isServicesOpen, setIsServicesOpen] = useState(false)
 
   useEffect(() => {
     const handleScroll = () => {
@@ -23,6 +24,25 @@ export default function Navbar() {
       window.removeEventListener("scroll", handleScroll)
     }
   }, [])
+
+  const handleServicesMouseEnter = () => {
+    setIsServicesOpen(true)
+  }
+
+  const handleServicesMouseLeave = () => {
+    // Dodajemo mali delay pre zatvaranja menija
+    setTimeout(() => {
+      setIsServicesOpen(false)
+    }, 150)
+  }
+
+  const handleDropdownMouseEnter = () => {
+    setIsServicesOpen(true)
+  }
+
+  const handleDropdownMouseLeave = () => {
+    setIsServicesOpen(false)
+  }
 
   return (
     <header
@@ -42,9 +62,55 @@ export default function Navbar() {
               <Link href="/odgusenje-woma-vozilom" className="text-gray-700 hover:text-blue-600 font-medium">
                 Odgušenje woma vozilom
               </Link>
-              <Link href="/usluge" className="text-gray-700 hover:text-blue-600 font-medium">
-                Usluge
-              </Link>
+
+              {/* Services dropdown */}
+              <div
+                className="relative group"
+                onMouseEnter={handleServicesMouseEnter}
+                onMouseLeave={handleServicesMouseLeave}
+              >
+                <Link
+                  href="/usluge"
+                  className="text-gray-700 hover:text-blue-600 font-medium flex items-center gap-1 py-2"
+                >
+                  Usluge
+                  <ChevronDown className="h-4 w-4" />
+                </Link>
+
+                {isServicesOpen && (
+                  <div
+                    className="absolute top-full left-0 w-64 bg-white rounded-lg shadow-lg border border-gray-100 py-2 z-50"
+                    onMouseEnter={handleDropdownMouseEnter}
+                    onMouseLeave={handleDropdownMouseLeave}
+                  >
+                    <Link
+                      href="/usluge/masinsko-odgusenje"
+                      className="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors"
+                    >
+                      Mašinsko odgušenje
+                    </Link>
+                    <Link
+                      href="/usluge/visokopritisno-pranje"
+                      className="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors"
+                    >
+                      Visokopritisno pranje
+                    </Link>
+                    <Link
+                      href="/usluge/ciscenje-odvoda"
+                      className="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors"
+                    >
+                      Čišćenje odvoda
+                    </Link>
+                    <Link
+                      href="/usluge/snimanje-kamerom"
+                      className="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors"
+                    >
+                      Snimanje kamerom
+                    </Link>
+                  </div>
+                )}
+              </div>
+
               <Link href="/o-nama" className="text-gray-700 hover:text-blue-600 font-medium">
                 O nama
               </Link>
@@ -91,6 +157,36 @@ export default function Navbar() {
               >
                 Usluge
               </Link>
+              <div className="pl-4 space-y-2">
+                <Link
+                  href="/usluge/masinsko-odgusenje"
+                  className="block text-gray-600 hover:text-blue-600 py-1"
+                  onClick={() => setIsOpen(false)}
+                >
+                  • Mašinsko odgušenje
+                </Link>
+                <Link
+                  href="/usluge/visokopritisno-pranje"
+                  className="block text-gray-600 hover:text-blue-600 py-1"
+                  onClick={() => setIsOpen(false)}
+                >
+                  • Visokopritisno pranje
+                </Link>
+                <Link
+                  href="/usluge/ciscenje-odvoda"
+                  className="block text-gray-600 hover:text-blue-600 py-1"
+                  onClick={() => setIsOpen(false)}
+                >
+                  • Čišćenje odvoda
+                </Link>
+                <Link
+                  href="/usluge/snimanje-kamerom"
+                  className="block text-gray-600 hover:text-blue-600 py-1"
+                  onClick={() => setIsOpen(false)}
+                >
+                  • Snimanje kamerom
+                </Link>
+              </div>
               <Link
                 href="/o-nama"
                 className="text-gray-700 hover:text-blue-600 font-medium py-2"

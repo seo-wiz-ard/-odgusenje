@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 
 export default function AboutUs() {
   return (
-    <div className="container mx-auto px-4 py-12">
+    <div className="container mx-auto px-4 py-12 pt-17">
       <h1 className="text-3xl md:text-4xl font-bold text-center mb-12">O Nama</h1>
 
       <div className="grid md:grid-cols-2 gap-8 items-center mb-16">

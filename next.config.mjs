@@ -16,7 +16,7 @@ const nextConfig = {
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
   },
   experimental: {
-    optimizeCss: true,
+    // Removed optimizeCss as it requires critters package
     optimizePackageImports: ['lucide-react', '@radix-ui/react-icons'],
   },
   compiler: {

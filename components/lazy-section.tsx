@@ -1,7 +1,6 @@
 "use client"
 
 import type React from "react"
-
 import { useEffect, useRef, useState } from "react"
 
 interface LazySectionProps {
@@ -22,6 +21,13 @@ export default function LazySection({
   const ref = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
+    // Check if IntersectionObserver is supported
+    if (typeof window === "undefined" || !("IntersectionObserver" in window)) {
+      setIsVisible(true)
+      setHasLoaded(true)
+      return
+    }
+
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting && !hasLoaded) {

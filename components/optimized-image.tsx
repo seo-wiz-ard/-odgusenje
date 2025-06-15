@@ -46,6 +46,20 @@ export default function OptimizedImage({
     )
   }
 
+  const imageProps = {
+    src: src || "/placeholder.svg",
+    alt,
+    onLoad: handleLoad,
+    onError: handleError,
+    sizes,
+    quality,
+    className: `transition-opacity duration-300 ${isLoading ? "opacity-0" : "opacity-100"} ${
+      fill ? "object-cover" : ""
+    }`,
+    ...(fill ? { fill: true } : { width, height }),
+    ...(priority ? { priority: true } : {}),
+  }
+
   return (
     <div className={`relative overflow-hidden ${className}`}>
       {isLoading && (
@@ -53,23 +67,7 @@ export default function OptimizedImage({
           <div className="w-8 h-8 border-2 border-blue-600 border-t-transparent rounded-full animate-spin"></div>
         </div>
       )}
-      <Image
-        src={src || "/placeholder.svg"}
-        alt={alt}
-        width={width}
-        height={height}
-        fill={fill}
-        priority={priority}
-        sizes={sizes}
-        quality={quality}
-        onLoad={handleLoad}
-        onError={handleError}
-        className={`transition-opacity duration-300 ${isLoading ? "opacity-0" : "opacity-100"} ${
-          fill ? "object-cover" : ""
-        }`}
-        placeholder="blur"
-        blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
-      />
+      <Image {...imageProps} />
     </div>
   )
 }

@@ -59,22 +59,22 @@ export default function Footer() {
             <h3 className="text-xl font-bold mb-4">Usluge</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="/usluge" className="text-blue-100 hover:text-white">
+                <Link href="/usluge/masinsko-odgusenje" className="text-blue-100 hover:text-white">
                   Mašinsko odgušenje
                 </Link>
               </li>
               <li>
-                <Link href="/usluge" className="text-blue-100 hover:text-white">
+                <Link href="/usluge/visokopritisno-pranje" className="text-blue-100 hover:text-white">
                   Visokopritisno pranje
                 </Link>
               </li>
               <li>
-                <Link href="/usluge" className="text-blue-100 hover:text-white">
+                <Link href="/usluge/ciscenje-odvoda" className="text-blue-100 hover:text-white">
                   Čišćenje odvoda
                 </Link>
               </li>
               <li>
-                <Link href="/usluge" className="text-blue-100 hover:text-white">
+                <Link href="/usluge/snimanje-kamerom" className="text-blue-100 hover:text-white">
                   Snimanje kamerom
                 </Link>
               </li>

@@ -61,23 +61,71 @@ export default function AboutUs() {
       </div>
 
       <div className="bg-blue-50 p-8 rounded-lg mb-16">
-        <h2 className="text-2xl font-bold mb-6 text-center text-blue-800">Područja koja pokrivamo</h2>
+        <h2 className="text-2xl font-bold mb-6 text-center text-blue-800">Delovi grada koje pokrivamo</h2>
         <p className="text-center mb-8 text-gray-700">
-          Naše usluge su dostupne na teritoriji cele Srbije, sa posebnim fokusom na Beograd i okolinu.
+          Naše usluge odgušenja kanalizacije su dostupne u svim delovima Beograda i okolnih opština.
         </p>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           <div className="bg-white p-4 rounded-lg shadow-sm">
-            <p className="font-semibold">Beograd</p>
+            <p className="font-semibold text-blue-800">Odgušenje kanalizacije Voždovac</p>
           </div>
           <div className="bg-white p-4 rounded-lg shadow-sm">
-            <p className="font-semibold">Novi Sad</p>
+            <p className="font-semibold text-blue-800">Odgušenje kanalizacije Surčin</p>
           </div>
           <div className="bg-white p-4 rounded-lg shadow-sm">
-            <p className="font-semibold">Niš</p>
+            <p className="font-semibold text-blue-800">Odgušenje kanalizacije Zvezdara</p>
           </div>
           <div className="bg-white p-4 rounded-lg shadow-sm">
-            <p className="font-semibold">Kragujevac</p>
+            <p className="font-semibold text-blue-800">Odgušenje kanalizacije Konjarnik</p>
           </div>
+          <div className="bg-white p-4 rounded-lg shadow-sm">
+            <p className="font-semibold text-blue-800">Odgušenje kanalizacije Vračar</p>
+          </div>
+          <div className="bg-white p-4 rounded-lg shadow-sm">
+            <p className="font-semibold text-blue-800">Odgušenje kanalizacije Novi Beograd</p>
+          </div>
+          <div className="bg-white p-4 rounded-lg shadow-sm">
+            <p className="font-semibold text-blue-800">Odgušenje kanalizacije Zemun</p>
+          </div>
+          <div className="bg-white p-4 rounded-lg shadow-sm">
+            <p className="font-semibold text-blue-800">Odgušenje kanalizacije Palilula</p>
+          </div>
+          <div className="bg-white p-4 rounded-lg shadow-sm">
+            <p className="font-semibold text-blue-800">Odgušenje kanalizacije Stari grad</p>
+          </div>
+          <div className="bg-white p-4 rounded-lg shadow-sm">
+            <p className="font-semibold text-blue-800">Odgušenje kanalizacije Savski venac</p>
+          </div>
+          <div className="bg-white p-4 rounded-lg shadow-sm">
+            <p className="font-semibold text-blue-800">Odgušenje kanalizacije Rakovica</p>
+          </div>
+          <div className="bg-white p-4 rounded-lg shadow-sm">
+            <p className="font-semibold text-blue-800">Odgušenje kanalizacije Čukarica</p>
+          </div>
+          <div className="bg-white p-4 rounded-lg shadow-sm">
+            <p className="font-semibold text-blue-800">Odgušenje kanalizacije Grocka</p>
+          </div>
+          <div className="bg-white p-4 rounded-lg shadow-sm">
+            <p className="font-semibold text-blue-800">Odgušenje kanalizacije Lazarevac</p>
+          </div>
+          <div className="bg-white p-4 rounded-lg shadow-sm">
+            <p className="font-semibold text-blue-800">Odgušenje kanalizacije Mladenovac</p>
+          </div>
+          <div className="bg-white p-4 rounded-lg shadow-sm">
+            <p className="font-semibold text-blue-800">Odgušenje kanalizacije Obrenovac</p>
+          </div>
+          <div className="bg-white p-4 rounded-lg shadow-sm">
+            <p className="font-semibold text-blue-800">Odgušenje kanalizacije Sopot</p>
+          </div>
+          <div className="bg-white p-4 rounded-lg shadow-sm">
+            <p className="font-semibold text-blue-800">Odgušenje kanalizacije Barajevo</p>
+          </div>
+        </div>
+        <div className="text-center mt-6">
+          <p className="text-gray-600">
+            <strong>Hitne intervencije 24/7</strong> - Pozovite nas na <strong>060 123 4567</strong> za brzu pomoć u
+            bilo kom delu Beograda!
+          </p>
         </div>
       </div>
 

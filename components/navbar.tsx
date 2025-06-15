@@ -9,6 +9,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
   const [isScrolled, setIsScrolled] = useState(false)
   const [isServicesOpen, setIsServicesOpen] = useState(false)
+  const [isAboutOpen, setIsAboutOpen] = useState(false)
 
   useEffect(() => {
     const handleScroll = () => {
@@ -27,22 +28,46 @@ export default function Navbar() {
 
   const handleServicesMouseEnter = () => {
     setIsServicesOpen(true)
+    setIsAboutOpen(false)
   }
 
   const handleServicesMouseLeave = () => {
-    // Dodajemo mali delay pre zatvaranja menija
     setTimeout(() => {
       setIsServicesOpen(false)
     }, 150)
   }
 
-  const handleDropdownMouseEnter = () => {
-    setIsServicesOpen(true)
-  }
-
-  const handleDropdownMouseLeave = () => {
+  const handleAboutMouseEnter = () => {
+    setIsAboutOpen(true)
     setIsServicesOpen(false)
   }
+
+  const handleAboutMouseLeave = () => {
+    setTimeout(() => {
+      setIsAboutOpen(false)
+    }, 150)
+  }
+
+  const locations = [
+    { name: "Voždovac", slug: "vozdovac" },
+    { name: "Surčin", slug: "surcin" },
+    { name: "Zvezdara", slug: "zvezdara" },
+    { name: "Konjarnik", slug: "konjarnik" },
+    { name: "Vračar", slug: "vracar" },
+    { name: "Novi Beograd", slug: "novi-beograd" },
+    { name: "Zemun", slug: "zemun" },
+    { name: "Palilula", slug: "palilula" },
+    { name: "Stari grad", slug: "stari-grad" },
+    { name: "Savski venac", slug: "savski-venac" },
+    { name: "Rakovica", slug: "rakovica" },
+    { name: "Čukarica", slug: "cukarica" },
+    { name: "Grocka", slug: "grocka" },
+    { name: "Lazarevac", slug: "lazarevac" },
+    { name: "Mladenovac", slug: "mladenovac" },
+    { name: "Obrenovac", slug: "obrenovac" },
+    { name: "Sopot", slug: "sopot" },
+    { name: "Barajevo", slug: "barajevo" },
+  ]
 
   return (
     <header
@@ -78,11 +103,7 @@ export default function Navbar() {
                 </Link>
 
                 {isServicesOpen && (
-                  <div
-                    className="absolute top-full left-0 w-64 bg-white rounded-lg shadow-lg border border-gray-100 py-2 z-50"
-                    onMouseEnter={handleDropdownMouseEnter}
-                    onMouseLeave={handleDropdownMouseLeave}
-                  >
+                  <div className="absolute top-full left-0 w-64 bg-white rounded-lg shadow-lg border border-gray-100 py-2 z-50">
                     <Link
                       href="/usluge/masinsko-odgusenje"
                       className="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors"
@@ -111,9 +132,40 @@ export default function Navbar() {
                 )}
               </div>
 
-              <Link href="/o-nama" className="text-gray-700 hover:text-blue-600 font-medium">
-                O nama
-              </Link>
+              {/* About dropdown with locations */}
+              <div className="relative group" onMouseEnter={handleAboutMouseEnter} onMouseLeave={handleAboutMouseLeave}>
+                <Link
+                  href="/o-nama"
+                  className="text-gray-700 hover:text-blue-600 font-medium flex items-center gap-1 py-2"
+                >
+                  O nama
+                  <ChevronDown className="h-4 w-4" />
+                </Link>
+
+                {isAboutOpen && (
+                  <div className="absolute top-full left-0 w-80 bg-white rounded-lg shadow-lg border border-gray-100 py-2 z-50 max-h-96 overflow-y-auto">
+                    <Link
+                      href="/o-nama"
+                      className="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors font-semibold border-b border-gray-100"
+                    >
+                      O nama - Opšte informacije
+                    </Link>
+                    <div className="px-4 py-2 text-xs text-gray-500 font-semibold uppercase tracking-wide">
+                      Odgušenje po lokacijama:
+                    </div>
+                    {locations.map((location) => (
+                      <Link
+                        key={location.slug}
+                        href={`/odgusenje-kanalizacije-${location.slug}`}
+                        className="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors"
+                      >
+                        Odgušenje {location.name}
+                      </Link>
+                    ))}
+                  </div>
+                )}
+              </div>
+
               <Link href="/kontakt" className="text-gray-700 hover:text-blue-600 font-medium">
                 Kontakt
               </Link>
@@ -194,6 +246,18 @@ export default function Navbar() {
               >
                 O nama
               </Link>
+              <div className="pl-4 space-y-1 max-h-48 overflow-y-auto">
+                {locations.map((location) => (
+                  <Link
+                    key={location.slug}
+                    href={`/odgusenje-kanalizacije-${location.slug}`}
+                    className="block text-gray-600 hover:text-blue-600 py-1 text-sm"
+                    onClick={() => setIsOpen(false)}
+                  >
+                    • Odgušenje {location.name}
+                  </Link>
+                ))}
+              </div>
               <Link
                 href="/kontakt"
                 className="text-gray-700 hover:text-blue-600 font-medium py-2"

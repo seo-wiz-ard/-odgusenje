@@ -21,12 +21,18 @@ export default function Hero() {
             </p>
 
             <div className="flex flex-col sm:flex-row justify-center md:justify-start gap-4 mb-8">
-              <Button size="lg" className="bg-red-600 hover:bg-red-700 text-lg">
-                <Phone className="h-5 w-5 mr-2" />
-                <span>Pozovite za odgušenje odmah</span>
-              </Button>
+              <a href="tel:+381643577947" className="no-underline">
+                <Button size="lg" className="bg-red-600 hover:bg-red-700 text-lg w-full sm:w-auto">
+                  <Phone className="h-5 w-5 mr-2" />
+                  <span>Pozovite za odgušenje odmah</span>
+                </Button>
+              </a>
               <Link href="/kontakt">
-                <Button size="lg" variant="outline" className="text-lg border-blue-600 text-blue-600 hover:bg-blue-50">
+                <Button
+                  size="lg"
+                  variant="outline"
+                  className="text-lg border-blue-600 text-blue-600 hover:bg-blue-50 w-full sm:w-auto"
+                >
                   Zatražite ponudu
                 </Button>
               </Link>

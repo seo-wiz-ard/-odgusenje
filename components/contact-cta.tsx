@@ -12,12 +12,18 @@ export default function ContactCta() {
             Ne čekajte da problem postane veći. Kontaktirajte nas odmah za brzu i profesionalnu uslugu odgušenja.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <Button size="lg" className="bg-red-600 hover:bg-red-700 text-lg">
-              <Phone className="h-5 w-5 mr-2" />
-              <span>060 123 4567</span>
-            </Button>
+            <a href="tel:+381643577947" className="no-underline">
+              <Button size="lg" className="bg-red-600 hover:bg-red-700 text-lg w-full sm:w-auto">
+                <Phone className="h-5 w-5 mr-2" />
+                <span>064 357 7947</span>
+              </Button>
+            </a>
             <Link href="/kontakt">
-              <Button size="lg" variant="outline" className="text-lg border-white text-white hover:bg-blue-800">
+              <Button
+                size="lg"
+                variant="outline"
+                className="text-lg border-white text-white hover:bg-blue-800 w-full sm:w-auto"
+              >
                 Pošaljite upit
               </Button>
             </Link>

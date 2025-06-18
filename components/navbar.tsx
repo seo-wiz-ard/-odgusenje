@@ -165,10 +165,12 @@ export default function Navbar() {
               </Link>
             </nav>
 
-            <Button className="bg-red-600 hover:bg-red-700">
-              <Phone className="h-4 w-4 mr-2" />
-              <span>060 123 4567</span>
-            </Button>
+            <a href="tel:+381643577947" className="no-underline">
+              <Button className="bg-red-600 hover:bg-red-700">
+                <Phone className="h-4 w-4 mr-2" />
+                <span>064 357 7947</span>
+              </Button>
+            </a>
           </div>
 
           <button className="md:hidden text-gray-700" onClick={() => setIsOpen(!isOpen)}>
@@ -259,10 +261,12 @@ export default function Navbar() {
               >
                 Kontakt
               </Link>
-              <Button className="bg-red-600 hover:bg-red-700 w-full">
-                <Phone className="h-4 w-4 mr-2" />
-                <span>060 123 4567</span>
-              </Button>
+              <a href="tel:+381643577947" className="no-underline">
+                <Button className="bg-red-600 hover:bg-red-700 w-full">
+                  <Phone className="h-4 w-4 mr-2" />
+                  <span>064 357 7947</span>
+                </Button>
+              </a>
             </nav>
           </div>
         </div>

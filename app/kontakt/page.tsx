@@ -5,7 +5,7 @@ import { MapPin, Phone, Clock, Mail } from "lucide-react"
 export const metadata: Metadata = {
   title: "Kontakt - Odgušenje kanalizacije Beograd | Pozovite 24/7",
   description:
-    "Kontaktirajte nas za hitne intervencije odgušenja kanalizacije u Beogradu. Dostupni 24/7, povoljne cene, brz dolazak. Telefon: 060 123 4567",
+    "Kontaktirajte nas za hitne intervencije odgušenja kanalizacije u Beogradu. Dostupni 24/7, povoljne cene, brz dolazak. Telefon: 064 357 7947",
   keywords:
     "kontakt odgušenje kanalizacije, telefon odgušenje beograd, hitne intervencije kanalizacija, odgušenje kanalizacije povoljno kontakt",
   alternates: {
@@ -48,7 +48,9 @@ export default function Contact() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-lg">Telefon za hitno odgušenje</h3>
-                  <p className="text-gray-700">+381 60 123 4567</p>
+                  <a href="tel:+381643577947" className="text-gray-700 hover:text-blue-600 text-lg font-medium">
+                    +381 64 357 7947
+                  </a>
                   <p className="text-gray-700">+381 11 123 4567</p>
                   <p className="text-sm text-blue-600">Dostupni 24/7 za odgušenje kanalizacije</p>
                 </div>

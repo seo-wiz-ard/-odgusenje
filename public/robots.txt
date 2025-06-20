@@ -1,28 +1,21 @@
 User-agent: *
 Allow: /
 
-# Sitemap
+# Sitemap lokacija
 Sitemap: https://odgusenje-kanalizacije.rs/sitemap.xml
 
-# Optimizacija za Google
-User-agent: Googlebot
-Allow: /
-Crawl-delay: 1
-
 # Blokiranje nepotrebnih fajlova
-Disallow: /api/
 Disallow: /_next/
+Disallow: /api/
+Disallow: *.json$
 Disallow: /admin/
-Disallow: /*.json$
-Disallow: /*.xml$
+Disallow: /private/
 
-# Dozvoljavanje važnih stranica
-Allow: /sitemap.xml
+# Dozvoliti pristup važnim fajlovima
+Allow: /_next/static/
+Allow: /favicon.ico
 Allow: /robots.txt
+Allow: /sitemap.xml
 
-# SEO optimizacija
-User-agent: *
-Allow: /odgusenje-kanalizacije-*
-Allow: /usluge/
-Allow: /kontakt
-Allow: /o-nama
+# Crawl delay za bolje performanse
+Crawl-delay: 1

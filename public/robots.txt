@@ -4,17 +4,25 @@ Allow: /
 # Sitemap
 Sitemap: https://odgusenje-kanalizacije.rs/sitemap.xml
 
-# Disallow admin areas
-Disallow: /admin/
-Disallow: /api/
-
-# Allow important pages
+# Optimizacija za Google
+User-agent: Googlebot
 Allow: /
-Allow: /usluge
+Crawl-delay: 1
+
+# Blokiranje nepotrebnih fajlova
+Disallow: /api/
+Disallow: /_next/
+Disallow: /admin/
+Disallow: /*.json$
+Disallow: /*.xml$
+
+# Dozvoljavanje važnih stranica
+Allow: /sitemap.xml
+Allow: /robots.txt
+
+# SEO optimizacija
+User-agent: *
+Allow: /odgusenje-kanalizacije-*
+Allow: /usluge/
 Allow: /kontakt
 Allow: /o-nama
-Allow: /odgusenje-woma-vozilom
-Allow: /usluge/masinsko-odgusenje
-Allow: /usluge/visokopritisno-pranje
-Allow: /usluge/ciscenje-odvoda
-Allow: /usluge/snimanje-kamerom

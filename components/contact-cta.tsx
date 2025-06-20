@@ -21,8 +21,7 @@ export default function ContactCta() {
             <Link href="/kontakt">
               <Button
                 size="lg"
-                variant="outline"
-                className="text-lg border-white text-white hover:bg-blue-800 w-full sm:w-auto"
+                className="text-lg bg-blue-600 border-white border text-white hover:text-black w-full sm:w-auto"
               >
                 Pošaljite upit
               </Button>

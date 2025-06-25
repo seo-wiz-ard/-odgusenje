@@ -1,20 +1,21 @@
 User-agent: *
 Allow: /
 
-# Sitemap
+# Sitemap lokacija
 Sitemap: https://odgusenje-kanalizacije.rs/sitemap.xml
 
-# Disallow admin areas
-Disallow: /admin/
+# Blokiranje nepotrebnih fajlova
+Disallow: /_next/
 Disallow: /api/
+Disallow: *.json$
+Disallow: /admin/
+Disallow: /private/
 
-# Allow important pages
-Allow: /
-Allow: /usluge
-Allow: /kontakt
-Allow: /o-nama
-Allow: /odgusenje-woma-vozilom
-Allow: /usluge/masinsko-odgusenje
-Allow: /usluge/visokopritisno-pranje
-Allow: /usluge/ciscenje-odvoda
-Allow: /usluge/snimanje-kamerom
+# Dozvoliti pristup važnim fajlovima
+Allow: /_next/static/
+Allow: /favicon.ico
+Allow: /robots.txt
+Allow: /sitemap.xml
+
+# Crawl delay za bolje performanse
+Crawl-delay: 1

@@ -1,57 +1,153 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Glavna stranica -->
   <url>
     <loc>https://odgusenje-kanalizacije.rs/</loc>
-    <lastmod>2024-01-15</lastmod>
+    <lastmod>2024-01-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
+  
+  <!-- Usluge stranice -->
   <url>
     <loc>https://odgusenje-kanalizacije.rs/usluge</loc>
-    <lastmod>2024-01-15</lastmod>
+    <lastmod>2024-01-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
+  
   <url>
     <loc>https://odgusenje-kanalizacije.rs/odgusenje-woma-vozilom</loc>
-    <lastmod>2024-01-15</lastmod>
+    <lastmod>2024-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  
   <url>
     <loc>https://odgusenje-kanalizacije.rs/usluge/masinsko-odgusenje</loc>
-    <lastmod>2024-01-15</lastmod>
+    <lastmod>2024-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  
   <url>
     <loc>https://odgusenje-kanalizacije.rs/usluge/visokopritisno-pranje</loc>
-    <lastmod>2024-01-15</lastmod>
+    <lastmod>2024-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  
   <url>
     <loc>https://odgusenje-kanalizacije.rs/usluge/ciscenje-odvoda</loc>
-    <lastmod>2024-01-15</lastmod>
+    <lastmod>2024-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  
   <url>
     <loc>https://odgusenje-kanalizacije.rs/usluge/snimanje-kamerom</loc>
-    <lastmod>2024-01-15</lastmod>
+    <lastmod>2024-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  
+  <!-- O nama i kontakt -->
   <url>
     <loc>https://odgusenje-kanalizacije.rs/o-nama</loc>
-    <lastmod>2024-01-15</lastmod>
+    <lastmod>2024-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+  
   <url>
     <loc>https://odgusenje-kanalizacije.rs/kontakt</loc>
-    <lastmod>2024-01-15</lastmod>
+    <lastmod>2024-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+  </url>
+  
+  <!-- Lokalne stranice po opštinama -->
+  <url>
+    <loc>https://odgusenje-kanalizacije.rs/odgusenje-kanalizacije-vozdovac</loc>
+    <lastmod>2024-01-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://odgusenje-kanalizacije.rs/odgusenje-kanalizacije-surcin</loc>
+    <lastmod>2024-01-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://odgusenje-kanalizacije.rs/odgusenje-kanalizacije-zvezdara</loc>
+    <lastmod>2024-01-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://odgusenje-kanalizacije.rs/odgusenje-kanalizacije-konjarnik</loc>
+    <lastmod>2024-01-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://odgusenje-kanalizacije.rs/odgusenje-kanalizacije-vracar</loc>
+    <lastmod>2024-01-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://odgusenje-kanalizacije.rs/odgusenje-kanalizacije-novi-beograd</loc>
+    <lastmod>2024-01-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://odgusenje-kanalizacije.rs/odgusenje-kanalizacije-zemun</loc>
+    <lastmod>2024-01-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://odgusenje-kanalizacije.rs/odgusenje-kanalizacije-palilula</loc>
+    <lastmod>2024-01-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://odgusenje-kanalizacije.rs/odgusenje-kanalizacije-stari-grad</loc>
+    <lastmod>2024-01-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://odgusenje-kanalizacije.rs/odgusenje-kanalizacije-savski-venac</loc>
+    <lastmod>2024-01-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://odgusenje-kanalizacije.rs/odgusenje-kanalizacije-rakovica</loc>
+    <lastmod>2024-01-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://odgusenje-kanalizacije.rs/odgusenje-kanalizacije-cukarica</loc>
+    <lastmod>2024-01-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
 </urlset>

@@ -66,11 +66,10 @@ const structuredData = {
   name: "Odgušenje kanalizacije",
   description: "Profesionalne usluge odgušenja kanalizacije u Beogradu 24/7",
   url: "https://odgusenje-kanalizacije.rs",
-  telephone: "+381643577947",
-  email: "odgusenje.online@gmail.com",
+  telephone: "+381601234567",
   address: {
     "@type": "PostalAddress",
-    streetAddress: "Ustanicka 169",
+    streetAddress: "Vodoinstalaterska 123",
     addressLocality: "Beograd",
     postalCode: "11000",
     addressCountry: "RS",
@@ -106,14 +105,6 @@ const structuredData = {
           description: "Čišćenje kanalizacionih cevi visokopritisnim pranjem",
         },
       },
-      {
-        "@type": "Offer",
-        itemOffered: {
-          "@type": "Service",
-          name: "Odgušenje woma vozilom",
-          description: "Profesionalno odgušenje kanalizacije woma vozilom",
-        },
-      },
     ],
   },
   aggregateRating: {
@@ -121,7 +112,6 @@ const structuredData = {
     ratingValue: "4.9",
     reviewCount: "127",
   },
-  sameAs: ["https://www.facebook.com/odgusenje.kanalizacije", "https://www.instagram.com/odgusenje.kanalizacije"],
 }
 
 export default function RootLayout({
@@ -132,14 +122,12 @@ export default function RootLayout({
   return (
     <html lang="sr" className={inter.variable}>
       <head>
-        <meta name="google-site-verification" content="OeB4ptw6vg62vU0fgovDjwiV32y3Pmq5ugz24V8V9Po" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="dns-prefetch" href="//fonts.googleapis.com" />
         <link rel="dns-prefetch" href="//fonts.gstatic.com" />
         <link rel="dns-prefetch" href="//www.google.com" />
-        <link rel="canonical" href="https://odgusenje-kanalizacije.rs" />
       </head>
       <body className={`${inter.className} font-sans`}>
         <PreloadResources />

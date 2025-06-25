@@ -9,22 +9,22 @@ const Testimonials = lazy(() => import("@/components/testimonials"))
 const ContactCta = lazy(() => import("@/components/contact-cta"))
 
 export const metadata: Metadata = {
-  title: "Odgušenje kanalizacije Beograd 24/7 | Hitne intervencije povoljno - Pozovite odmah!",
+  title: "Odgušenje kanalizacije Beograd 24/7 | Hitne intervencije povoljno",
   description:
-    "🔧 Profesionalno odgušenje kanalizacije u Beogradu 24/7. ⚡ Hitne intervencije, povoljne cene, brz dolazak za 30min. Odgušenje WC, sudopera, odvoda. ☎️ 064 357 7947",
+    "Profesionalno odgušenje kanalizacije u Beogradu 24/7. Hitne intervencije, povoljne cene, brz dolazak. Odgušenje wc šolja, odvoda, kanalizacije. Pozovite odmah!",
   keywords:
-    "odgušenje kanalizacije, odgušenje kanalizacije beograd, odgušenje kanalizacije povoljno, hitno odgušenje kanalizacije, odgušenje wc, odgušenje odvoda, vodoinstalater beograd 24h, odgušavanje kanalizacije, čišćenje kanalizacije, odgušavanje sudopere",
+    "odgušenje kanalizacije, odgušenje kanalizacije beograd, odgušenje kanalizacije povoljno, hitno odgušenje kanalizacije, odgušenje wc, odgušenje odvoda, vodoinstalater beograd 24h",
   alternates: {
     canonical: "https://odgusenje-kanalizacije.rs",
   },
   openGraph: {
     title: "Odgušenje kanalizacije Beograd 24/7 | Hitne intervencije povoljno",
     description:
-      "🔧 Profesionalno odgušenje kanalizacije u Beogradu 24/7. ⚡ Hitne intervencije, povoljne cene, brz dolazak. ☎️ 064 357 7947",
+      "Profesionalno odgušenje kanalizacije u Beogradu 24/7. Hitne intervencije, povoljne cene, brz dolazak. Pozovite odmah!",
     url: "https://odgusenje-kanalizacije.rs",
     images: [
       {
-        url: "https://odgusenje.vodoinstalateri-novi-sad.rs/img/odgusenje.webp",
+        url: "/placeholder.svg?height=630&width=1200",
         width: 1200,
         height: 630,
         alt: "Odgušenje kanalizacije Beograd - hitne intervencije 24/7",
@@ -62,26 +62,7 @@ export default function Home() {
       "@type": "LocalBusiness",
       name: "Odgušenje kanalizacije",
       priceRange: "$$",
-      telephone: "+381643577947",
-      email: "odgusenje.online@gmail.com",
-      address: {
-        "@type": "PostalAddress",
-        streetAddress: "Ustanicka 169",
-        addressLocality: "Beograd",
-        postalCode: "11000",
-        addressCountry: "RS",
-      },
-    },
-    breadcrumb: {
-      "@type": "BreadcrumbList",
-      itemListElement: [
-        {
-          "@type": "ListItem",
-          position: 1,
-          name: "Početna",
-          item: "https://odgusenje-kanalizacije.rs",
-        },
-      ],
+      telephone: "+381601234567",
     },
   }
 

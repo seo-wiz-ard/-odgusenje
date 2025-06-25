@@ -56,11 +56,11 @@ export default function Hero() {
 
           <div className="relative h-[300px] md:h-[400px] lg:h-[500px]">
             <OptimizedImage
-              src="/placeholder.svg?height=500&width=500"
-              alt="Odgušenje kanalizacije Beograd - profesionalne usluge hitnih intervencija 24/7"
+              src="https://odgusenje.vodoinstalateri-novi-sad.rs/img/odgusenje.webp"
+              alt="Profesionalno odgušenje sudopere - odgušavanje kanalizacije u Beogradu"
               fill
               priority
-              className="rounded-lg"
+              className="rounded-lg object-cover"
               sizes="(max-width: 768px) 100vw, 50vw"
               quality={90}
             />

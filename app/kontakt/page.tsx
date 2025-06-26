@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Kontakt - Odgušenje kanalizacije Beograd | Pozovite 24/7",
     description: "Kontaktirajte nas za hitne intervencije odgušenja kanalizacije u Beogradu. Dostupni 24/7.",
-    url: "https://www.odgusenje-kanalizacije.rs/kontakt",
+    url: "https://www.odgusenje.online/kontakt",
   },
 }
 
@@ -24,7 +24,7 @@ export default function Contact() {
     "@type": "ContactPage",
     name: "Kontakt - Odgušenje kanalizacije",
     description: "Kontakt informacije za usluge odgušenja kanalizacije u Beogradu",
-    url: "https://www.odgusenje-kanalizacije.rs/kontakt",
+    url: "https://www.odgusenje.online/kontakt",
   }
 
   return (

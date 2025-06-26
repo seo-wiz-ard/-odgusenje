@@ -9,12 +9,12 @@ export const metadata: Metadata = {
   keywords:
     "kontakt odgušenje kanalizacije, telefon odgušenje beograd, hitne intervencije kanalizacija, odgušenje kanalizacije povoljno kontakt",
   alternates: {
-    canonical: "https://odgusenje.online/kontakt",
+    canonical: "https://www.odgusenje.online/kontakt",
   },
   openGraph: {
     title: "Kontakt - Odgušenje kanalizacije Beograd | Pozovite 24/7",
     description: "Kontaktirajte nas za hitne intervencije odgušenja kanalizacije u Beogradu. Dostupni 24/7.",
-    url: "https://odgusenje-kanalizacije.rs/kontakt",
+    url: "https://www.odgusenje-kanalizacije.rs/kontakt",
   },
 }
 
@@ -24,7 +24,7 @@ export default function Contact() {
     "@type": "ContactPage",
     name: "Kontakt - Odgušenje kanalizacije",
     description: "Kontakt informacije za usluge odgušenja kanalizacije u Beogradu",
-    url: "https://odgusenje-kanalizacije.rs/kontakt",
+    url: "https://www.odgusenje-kanalizacije.rs/kontakt",
   }
 
   return (

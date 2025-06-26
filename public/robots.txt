@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://odgusenje-kanalizacije.rs/sitemap.xml
+Sitemap: https://www.odgusenje.online/sitemap.xml
 
 # Disallow admin areas
 Disallow: /admin/

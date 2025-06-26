@@ -43,3 +43,23 @@ export default function Testimonials() {
               </div>
               <p className="text-gray-700 mb-6 italic">"{testimonial.text}"</p>
               <div className="flex items-center">
+                <div className="h-12 w-12 rounded-full bg-gray-200 relative overflow-hidden mr-4">
+                  <Image
+                    src="/placeholder.svg?height=48&width=48"
+                    alt={testimonial.name}
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+                <div>
+                  <p className="font-semibold">{testimonial.name}</p>
+                  <p className="text-gray-500 text-sm">{testimonial.location}</p>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  )
+}

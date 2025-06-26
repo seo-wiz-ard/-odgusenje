@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   keywords:
     "kontakt odgušenje kanalizacije, telefon odgušenje beograd, hitne intervencije kanalizacija, odgušenje kanalizacije povoljno kontakt",
   alternates: {
-    canonical: "https://odgusenje-kanalizacije.rs/kontakt",
+    canonical: "https://odgusenje.online/kontakt",
   },
   openGraph: {
     title: "Kontakt - Odgušenje kanalizacije Beograd | Pozovite 24/7",
@@ -74,7 +74,9 @@ export default function Contact() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-lg">Email za odgušenje</h3>
-                  <p className="text-gray-700">info@odgusenje-kanalizacije.rs</p>
+                  <a href="mailto:odgusenje.online@gmail.com" className="text-gray-700 hover:text-blue-600">
+                    odgusenje.online@gmail.com
+                  </a>
                   <p className="text-sm text-blue-600">Odgovaramo u roku od 1 sata</p>
                 </div>
               </div>

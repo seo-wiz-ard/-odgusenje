@@ -96,7 +96,7 @@ export default function Footer() {
               </li>
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 mr-2 mt-0.5 text-blue-300" />
-                <span>Ustanicka 169, Beograd</span>
+                <span>Vodoinstalaterska 123, Beograd</span>
               </li>
               <li className="flex items-start">
                 <Clock className="h-5 w-5 mr-2 mt-0.5 text-blue-300" />

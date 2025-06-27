@@ -7,6 +7,8 @@ import Footer from "@/components/footer"
 import PerformanceMonitor from "@/components/performance-monitor"
 import PreloadResources from "@/components/preload-resources"
 
+const BASE_URL = "https://www.odgusenje.online"
+
 const inter = Inter({
   subsets: ["latin"],
   display: "swap",
@@ -25,12 +27,12 @@ export const metadata: Metadata = {
   publisher: "Odgušenje kanalizacije",
   robots: "index, follow",
   alternates: {
-    canonical: "https://www.odgusenje.online",
+    canonical: BASE_URL,
   },
   openGraph: {
     type: "website",
     locale: "sr_RS",
-    url: "https://www.odgusenje.online",
+    url: BASE_URL,
     siteName: "Odgušenje kanalizacije",
     title: "Odgušenje kanalizacije Beograd 24/7 | Hitne intervencije povoljno",
     description:
@@ -65,7 +67,7 @@ const structuredData = {
   "@type": "LocalBusiness",
   name: "Odgušenje kanalizacije",
   description: "Profesionalne usluge odgušenja kanalizacije u Beogradu 24/7",
-  url: "https://www.odgusenje.online",
+  url: BASE_URL,
   telephone: "+381643577947",
   address: {
     "@type": "PostalAddress",

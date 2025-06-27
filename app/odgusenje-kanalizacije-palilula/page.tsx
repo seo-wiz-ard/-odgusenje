@@ -12,12 +12,12 @@ export const metadata: Metadata = {
   keywords:
     "odgušenje kanalizacije palilula, hitno odgušenje palilula, vodoinstalater palilula 24h, odgušenje kanalizacije palilula povoljno",
   alternates: {
-    canonical: "https://odgusenje-kanalizacije.rs/odgusenje-kanalizacije-palilula",
+    canonical: "https://www.odgusenje.online/odgusenje-kanalizacije-palilula",
   },
   openGraph: {
     title: "Odgušenje kanalizacije Palilula 24/7 | Hitne intervencije povoljno",
     description: "Profesionalno odgušenje kanalizacije Palilula 24/7. Hitne intervencije, povoljne cene, brz dolazak.",
-    url: "https://odgusenje-kanalizacije.rs/odgusenje-kanalizacije-palilula",
+    url: "https://www.odgusenje.online/odgusenje-kanalizacije-palilula",
   },
 }
 
@@ -27,7 +27,7 @@ export default function OdgusenjePalilula() {
     "@type": "LocalBusiness",
     name: "Odgušenje kanalizacije Palilula",
     description: "Profesionalne usluge odgušenja kanalizacije na teritoriji Palilule 24/7",
-    url: "https://odgusenje-kanalizacije.rs/odgusenje-kanalizacije-palilula",
+    url: "https://www.odgusenje.online/odgusenje-kanalizacije-palilula",
     telephone: "+381601234567",
     areaServed: {
       "@type": "Place",

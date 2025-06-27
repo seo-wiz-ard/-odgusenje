@@ -12,13 +12,13 @@ export const metadata: Metadata = {
   keywords:
     "odgušenje kanalizacije stari grad, hitno odgušenje stari grad, vodoinstalater stari grad 24h, odgušenje kanalizacije stari grad povoljno",
   alternates: {
-    canonical: "https://odgusenje-kanalizacije.rs/odgusenje-kanalizacije-stari-grad",
+    canonical: "https://www.odgusenje.online/odgusenje-kanalizacije-stari-grad",
   },
   openGraph: {
     title: "Odgušenje kanalizacije Stari grad 24/7 | Hitne intervencije povoljno",
     description:
       "Profesionalno odgušenje kanalizacije Stari grad 24/7. Hitne intervencije, povoljne cene, brz dolazak.",
-    url: "https://odgusenje-kanalizacije.rs/odgusenje-kanalizacije-stari-grad",
+    url: "https://www.odgusenje.online/odgusenje-kanalizacije-stari-grad",
   },
 }
 
@@ -28,7 +28,7 @@ export default function OdgusenjeStariGrad() {
     "@type": "LocalBusiness",
     name: "Odgušenje kanalizacije Stari grad",
     description: "Profesionalne usluge odgušenja kanalizacije na teritoriji Starog grada 24/7",
-    url: "https://odgusenje-kanalizacije.rs/odgusenje-kanalizacije-stari-grad",
+    url: "https://www.odgusenje.online/odgusenje-kanalizacije-stari-grad",
     telephone: "+381601234567",
     areaServed: {
       "@type": "Place",

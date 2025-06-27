@@ -12,13 +12,13 @@ export const metadata: Metadata = {
   keywords:
     "odgušenje kanalizacije novi beograd, hitno odgušenje novi beograd, vodoinstalater novi beograd 24h, odgušenje kanalizacije novi beograd povoljno",
   alternates: {
-    canonical: "https://odgusenje-kanalizacije.rs/odgusenje-kanalizacije-novi-beograd",
+    canonical: "https://www.odgusenje.online/odgusenje-kanalizacije-novi-beograd",
   },
   openGraph: {
     title: "Odgušenje kanalizacije Novi Beograd 24/7 | Hitne intervencije povoljno",
     description:
       "Profesionalno odgušenje kanalizacije Novi Beograd 24/7. Hitne intervencije, povoljne cene, brz dolazak.",
-    url: "https://odgusenje-kanalizacije.rs/odgusenje-kanalizacije-novi-beograd",
+    url: "https://www.odgusenje.online/odgusenje-kanalizacije-novi-beograd",
   },
 }
 
@@ -28,7 +28,7 @@ export default function OdgusenjeNoviBeograd() {
     "@type": "LocalBusiness",
     name: "Odgušenje kanalizacije Novi Beograd",
     description: "Profesionalne usluge odgušenja kanalizacije na teritoriji Novog Beograda 24/7",
-    url: "https://odgusenje-kanalizacije.rs/odgusenje-kanalizacije-novi-beograd",
+    url: "https://www.odgusenje.online/odgusenje-kanalizacije-novi-beograd",
     telephone: "+381601234567",
     areaServed: {
       "@type": "Place",

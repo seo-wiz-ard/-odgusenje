@@ -12,12 +12,12 @@ export const metadata: Metadata = {
   keywords:
     "odgušenje kanalizacije surčin, hitno odgušenje surčin, vodoinstalater surčin 24h, odgušenje kanalizacije surčin povoljno",
   alternates: {
-    canonical: "https://odgusenje-kanalizacije.rs/odgusenje-kanalizacije-surcin",
+    canonical: "https://www.odgusenje.online/odgusenje-kanalizacije-surcin",
   },
   openGraph: {
     title: "Odgušenje kanalizacije Surčin 24/7 | Hitne intervencije povoljno",
     description: "Profesionalno odgušenje kanalizacije Surčin 24/7. Hitne intervencije, povoljne cene, brz dolazak.",
-    url: "https://odgusenje-kanalizacije.rs/odgusenje-kanalizacije-surcin",
+    url: "https://www.odgusenje.online/odgusenje-kanalizacije-surcin",
   },
 }
 
@@ -27,7 +27,7 @@ export default function OdgusenjeSurcin() {
     "@type": "LocalBusiness",
     name: "Odgušenje kanalizacije Surčin",
     description: "Profesionalne usluge odgušenja kanalizacije na teritoriji Surčina 24/7",
-    url: "https://odgusenje-kanalizacije.rs/odgusenje-kanalizacije-surcin",
+    url: "https://www.odgusenje.online/odgusenje-kanalizacije-surcin",
     telephone: "+381601234567",
     areaServed: {
       "@type": "Place",

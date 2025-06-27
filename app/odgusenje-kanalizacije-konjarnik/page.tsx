@@ -12,12 +12,12 @@ export const metadata: Metadata = {
   keywords:
     "odgušenje kanalizacije konjarnik, hitno odgušenje konjarnik, vodoinstalater konjarnik 24h, odgušenje kanalizacije konjarnik povoljno",
   alternates: {
-    canonical: "https://odgusenje-kanalizacije.rs/odgusenje-kanalizacije-konjarnik",
+    canonical: "https://www.odgusenje.online/odgusenje-kanalizacije-konjarnik",
   },
   openGraph: {
     title: "Odgušenje kanalizacije Konjarnik 24/7 | Hitne intervencije povoljno",
     description: "Profesionalno odgušenje kanalizacije Konjarnik 24/7. Hitne intervencije, povoljne cene, brz dolazak.",
-    url: "https://odgusenje-kanalizacije.rs/odgusenje-kanalizacije-konjarnik",
+    url: "https://www.odgusenje.online/odgusenje-kanalizacije-konjarnik",
   },
 }
 
@@ -27,7 +27,7 @@ export default function OdgusenjeKonjarnik() {
     "@type": "LocalBusiness",
     name: "Odgušenje kanalizacije Konjarnik",
     description: "Profesionalne usluge odgušenja kanalizacije na teritoriji Konjarnika 24/7",
-    url: "https://odgusenje-kanalizacije.rs/odgusenje-kanalizacije-konjarnik",
+    url: "https://www.odgusenje.online/odgusenje-kanalizacije-konjarnik",
     telephone: "+381601234567",
     areaServed: {
       "@type": "Place",

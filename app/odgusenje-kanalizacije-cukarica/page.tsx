@@ -12,12 +12,12 @@ export const metadata: Metadata = {
   keywords:
     "odgušenje kanalizacije čukarica, hitno odgušenje čukarica, vodoinstalater čukarica 24h, odgušenje kanalizacije čukarica povoljno",
   alternates: {
-    canonical: "https://odgusenje-kanalizacije.rs/odgusenje-kanalizacije-cukarica",
+    canonical: "https://www.odgusenje.online/odgusenje-kanalizacije-cukarica",
   },
   openGraph: {
     title: "Odgušenje kanalizacije Čukarica 24/7 | Hitne intervencije povoljno",
     description: "Profesionalno odgušenje kanalizacije Čukarica 24/7. Hitne intervencije, povoljne cene, brz dolazak.",
-    url: "https://odgusenje-kanalizacije.rs/odgusenje-kanalizacije-cukarica",
+    url: "https://www.odgusenje.online/odgusenje-kanalizacije-cukarica",
   },
 }
 
@@ -27,7 +27,7 @@ export default function OdgusenjeCukarica() {
     "@type": "LocalBusiness",
     name: "Odgušenje kanalizacije Čukarica",
     description: "Profesionalne usluge odgušenja kanalizacije na teritoriji Čukarice 24/7",
-    url: "https://odgusenje-kanalizacije.rs/odgusenje-kanalizacije-cukarica",
+    url: "https://www.odgusenje.online/odgusenje-kanalizacije-cukarica",
     telephone: "+381601234567",
     areaServed: {
       "@type": "Place",

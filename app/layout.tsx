@@ -25,12 +25,12 @@ export const metadata: Metadata = {
   publisher: "Odgušenje kanalizacije",
   robots: "index, follow",
   alternates: {
-    canonical: "https://odgusenje-kanalizacije.rs",
+    canonical: "https://www.odgusenje.online",
   },
   openGraph: {
     type: "website",
     locale: "sr_RS",
-    url: "https://odgusenje-kanalizacije.rs",
+    url: "https://www.odgusenje.online",
     siteName: "Odgušenje kanalizacije",
     title: "Odgušenje kanalizacije Beograd 24/7 | Hitne intervencije povoljno",
     description:
@@ -65,11 +65,11 @@ const structuredData = {
   "@type": "LocalBusiness",
   name: "Odgušenje kanalizacije",
   description: "Profesionalne usluge odgušenja kanalizacije u Beogradu 24/7",
-  url: "https://odgusenje-kanalizacije.rs",
-  telephone: "+381601234567",
+  url: "https://www.odgusenje.online",
+  telephone: "+381643577947",
   address: {
     "@type": "PostalAddress",
-    streetAddress: "Vodoinstalaterska 123",
+    streetAddress: "Ustanicka 169",
     addressLocality: "Beograd",
     postalCode: "11000",
     addressCountry: "RS",

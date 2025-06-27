@@ -12,12 +12,12 @@ export const metadata: Metadata = {
   keywords:
     "odgušenje kanalizacije vračar, hitno odgušenje vračar, vodoinstalater vračar 24h, odgušenje kanalizacije vračar povoljno",
   alternates: {
-    canonical: "https://odgusenje-kanalizacije.rs/odgusenje-kanalizacije-vracar",
+    canonical: "https://www.odgusenje.online/odgusenje-kanalizacije-vracar",
   },
   openGraph: {
     title: "Odgušenje kanalizacije Vračar 24/7 | Hitne intervencije povoljno",
     description: "Profesionalno odgušenje kanalizacije Vračar 24/7. Hitne intervencije, povoljne cene, brz dolazak.",
-    url: "https://odgusenje-kanalizacije.rs/odgusenje-kanalizacije-vracar",
+    url: "https://www.odgusenje.online/odgusenje-kanalizacije-vracar",
   },
 }
 
@@ -27,7 +27,7 @@ export default function OdgusenjeVracar() {
     "@type": "LocalBusiness",
     name: "Odgušenje kanalizacije Vračar",
     description: "Profesionalne usluge odgušenja kanalizacije na teritoriji Vračara 24/7",
-    url: "https://odgusenje-kanalizacije.rs/odgusenje-kanalizacije-vracar",
+    url: "https://www.odgusenje.online/odgusenje-kanalizacije-vracar",
     telephone: "+381601234567",
     areaServed: {
       "@type": "Place",

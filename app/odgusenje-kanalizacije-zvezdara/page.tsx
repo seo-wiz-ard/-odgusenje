@@ -12,12 +12,12 @@ export const metadata: Metadata = {
   keywords:
     "odgušenje kanalizacije zvezdara, hitno odgušenje zvezdara, vodoinstalater zvezdara 24h, odgušenje kanalizacije zvezdara povoljno",
   alternates: {
-    canonical: "https://odgusenje-kanalizacije.rs/odgusenje-kanalizacije-zvezdara",
+    canonical: "https://www.odgusenje.online/odgusenje-kanalizacije-zvezdara",
   },
   openGraph: {
     title: "Odgušenje kanalizacije Zvezdara 24/7 | Hitne intervencije povoljno",
     description: "Profesionalno odgušenje kanalizacije Zvezdara 24/7. Hitne intervencije, povoljne cene, brz dolazak.",
-    url: "https://odgusenje-kanalizacije.rs/odgusenje-kanalizacije-zvezdara",
+    url: "https://www.odgusenje.online/odgusenje-kanalizacije-zvezdara",
   },
 }
 
@@ -27,7 +27,7 @@ export default function OdgusenjeZvezdara() {
     "@type": "LocalBusiness",
     name: "Odgušenje kanalizacije Zvezdara",
     description: "Profesionalne usluge odgušenja kanalizacije na teritoriji Zvezdare 24/7",
-    url: "https://odgusenje-kanalizacije.rs/odgusenje-kanalizacije-zvezdara",
+    url: "https://www.odgusenje.online/odgusenje-kanalizacije-zvezdara",
     telephone: "+381601234567",
     areaServed: {
       "@type": "Place",

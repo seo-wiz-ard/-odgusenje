@@ -12,12 +12,12 @@ export const metadata: Metadata = {
   keywords:
     "odgušenje kanalizacije rakovica, hitno odgušenje rakovica, vodoinstalater rakovica 24h, odgušenje kanalizacije rakovica povoljno",
   alternates: {
-    canonical: "https://odgusenje-kanalizacije.rs/odgusenje-kanalizacije-rakovica",
+    canonical: "https://www.odgusenje.online/odgusenje-kanalizacije-rakovica",
   },
   openGraph: {
     title: "Odgušenje kanalizacije Rakovica 24/7 | Hitne intervencije povoljno",
     description: "Profesionalno odgušenje kanalizacije Rakovica 24/7. Hitne intervencije, povoljne cene, brz dolazak.",
-    url: "https://odgusenje-kanalizacije.rs/odgusenje-kanalizacije-rakovica",
+    url: "https://www.odgusenje.online/odgusenje-kanalizacije-rakovica",
   },
 }
 
@@ -27,7 +27,7 @@ export default function OdgusenjeRakovica() {
     "@type": "LocalBusiness",
     name: "Odgušenje kanalizacije Rakovica",
     description: "Profesionalne usluge odgušenja kanalizacije na teritoriji Rakovice 24/7",
-    url: "https://odgusenje-kanalizacije.rs/odgusenje-kanalizacije-rakovica",
+    url: "https://www.odgusenje.online/odgusenje-kanalizacije-rakovica",
     telephone: "+381601234567",
     areaServed: {
       "@type": "Place",

@@ -12,12 +12,12 @@ export const metadata: Metadata = {
   keywords:
     "odgušenje kanalizacije zemun, hitno odgušenje zemun, vodoinstalater zemun 24h, odgušenje kanalizacije zemun povoljno",
   alternates: {
-    canonical: "https://odgusenje-kanalizacije.rs/odgusenje-kanalizacije-zemun",
+    canonical: "https://www.odgusenje.online/odgusenje-kanalizacije-zemun",
   },
   openGraph: {
     title: "Odgušenje kanalizacije Zemun 24/7 | Hitne intervencije povoljno",
     description: "Profesionalno odgušenje kanalizacije Zemun 24/7. Hitne intervencije, povoljne cene, brz dolazak.",
-    url: "https://odgusenje-kanalizacije.rs/odgusenje-kanalizacije-zemun",
+    url: "https://www.odgusenje.online/odgusenje-kanalizacije-zemun",
   },
 }
 
@@ -27,7 +27,7 @@ export default function OdgusenjeZemun() {
     "@type": "LocalBusiness",
     name: "Odgušenje kanalizacije Zemun",
     description: "Profesionalne usluge odgušenja kanalizacije na teritoriji Zemuna 24/7",
-    url: "https://odgusenje-kanalizacije.rs/odgusenje-kanalizacije-zemun",
+    url: "https://www.odgusenje.online/odgusenje-kanalizacije-zemun",
     telephone: "+381601234567",
     areaServed: {
       "@type": "Place",

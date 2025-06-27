@@ -12,13 +12,13 @@ export const metadata: Metadata = {
   keywords:
     "odgušenje kanalizacije savski venac, hitno odgušenje savski venac, vodoinstalater savski venac 24h, odgušenje kanalizacije savski venac povoljno",
   alternates: {
-    canonical: "https://odgusenje-kanalizacije.rs/odgusenje-kanalizacije-savski-venac",
+    canonical: "https://www.odgusenje.online/odgusenje-kanalizacije-savski-venac",
   },
   openGraph: {
     title: "Odgušenje kanalizacije Savski venac 24/7 | Hitne intervencije povoljno",
     description:
       "Profesionalno odgušenje kanalizacije Savski venac 24/7. Hitne intervencije, povoljne cene, brz dolazak.",
-    url: "https://odgusenje-kanalizacije.rs/odgusenje-kanalizacije-savski-venac",
+    url: "https://www.odgusenje.online/odgusenje-kanalizacije-savski-venac",
   },
 }
 
@@ -28,7 +28,7 @@ export default function OdgusenjeSavskiVenac() {
     "@type": "LocalBusiness",
     name: "Odgušenje kanalizacije Savski venac",
     description: "Profesionalne usluge odgušenja kanalizacije na teritoriji Savskog venca 24/7",
-    url: "https://odgusenje-kanalizacije.rs/odgusenje-kanalizacije-savski-venac",
+    url: "https://www.odgusenje.online/odgusenje-kanalizacije-savski-venac",
     telephone: "+381601234567",
     areaServed: {
       "@type": "Place",

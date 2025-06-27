@@ -12,12 +12,12 @@ export const metadata: Metadata = {
   keywords:
     "odgušenje kanalizacije voždovac, odgušenje kanalizacije medaković, odgušenje kanalizacije banjica, odgušenje kanalizacije kumodraž, hitno odgušenje voždovac, vodoinstalater voždovac 24h",
   alternates: {
-    canonical: "https://odgusenje-kanalizacije.rs/odgusenje-kanalizacije-vozdovac",
+    canonical: "https://www.odgusenje.online/odgusenje-kanalizacije-vozdovac",
   },
   openGraph: {
     title: "Odgušenje kanalizacije Voždovac 24/7 | Hitne intervencije povoljno",
     description: "Profesionalno odgušenje kanalizacije Voždovac 24/7. Hitne intervencije, povoljne cene, brz dolazak.",
-    url: "https://odgusenje-kanalizacije.rs/odgusenje-kanalizacije-vozdovac",
+    url: "https://www.odgusenje.online/odgusenje-kanalizacije-vozdovac",
   },
 }
 
@@ -27,7 +27,7 @@ export default function OdgusenjeVozdovac() {
     "@type": "LocalBusiness",
     name: "Odgušenje kanalizacije Voždovac",
     description: "Profesionalne usluge odgušenja kanalizacije na teritoriji Voždovca 24/7",
-    url: "https://odgusenje-kanalizacije.rs/odgusenje-kanalizacije-vozdovac",
+    url: "https://www.odgusenje.online/odgusenje-kanalizacije-vozdovac",
     telephone: "+381601234567",
     areaServed: {
       "@type": "Place",

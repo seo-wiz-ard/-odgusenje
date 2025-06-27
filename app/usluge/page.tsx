@@ -9,12 +9,12 @@ export const metadata: Metadata = {
   keywords:
     "usluge odgušenja kanalizacije, odgušenje kanalizacije beograd, odgušenje kanalizacije povoljno, mašinsko odgušenje, visokopritisno pranje kanalizacije, čišćenje odvoda",
   alternates: {
-    canonical: "https://odgusenje-kanalizacije.rs/usluge",
+    canonical: "https://www.odgusenje.online/usluge",
   },
   openGraph: {
     title: "Usluge odgušenja kanalizacije Beograd | Povoljne cene 24/7",
     description: "Kompletne usluge odgušenja kanalizacije u Beogradu. Povoljne cene, brza intervencija 24/7.",
-    url: "https://odgusenje-kanalizacije.rs/usluge",
+    url: "https://www.odgusenje.online/usluge",
   },
 }
 

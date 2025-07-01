@@ -15,13 +15,13 @@ export const metadata: Metadata = {
   keywords:
     "odgušenje kanalizacije, odgušenje kanalizacije beograd, odgušenje kanalizacije povoljno, hitno odgušenje kanalizacije, odgušenje wc, odgušenje odvoda, vodoinstalater beograd 24h",
   alternates: {
-    canonical: "https://odgusenje-kanalizacije.rs",
+    canonical: "https://www.odgusenje.online/",
   },
   openGraph: {
     title: "Odgušenje kanalizacije Beograd 24/7 | Hitne intervencije povoljno",
     description:
       "Profesionalno odgušenje kanalizacije u Beogradu 24/7. Hitne intervencije, povoljne cene, brz dolazak. Pozovite odmah!",
-    url: "https://odgusenje-kanalizacije.rs",
+    url: "https://www.odgusenje.online/",
     images: [
       {
         url: "/placeholder.svg?height=630&width=1200",
@@ -57,7 +57,7 @@ export default function Home() {
     "@type": "WebPage",
     name: "Odgušenje kanalizacije Beograd 24/7",
     description: "Profesionalno odgušenje kanalizacije u Beogradu 24/7. Hitne intervencije, povoljne cene.",
-    url: "https://odgusenje-kanalizacije.rs",
+    url: "https://www.odgusenje.online/",
     mainEntity: {
       "@type": "LocalBusiness",
       name: "Odgušenje kanalizacije",
